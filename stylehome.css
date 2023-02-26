@@ -76,3 +76,15 @@ body{
 #wishlist{
     
 }
+.hover-effect > *:hover{
+    opacity: 0.8;
+    border: 2px solid black !important;
+    
+}
+/*for MOD*/
+.icon-del{
+    border-radius: 10px;
+}
+.warning-two{
+    text-align: center;
+}
