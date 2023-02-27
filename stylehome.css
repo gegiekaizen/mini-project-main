@@ -19,6 +19,9 @@ body,html{
     padding: 0;
     sticky:top;
 }
+.mysearch{
+
+}
 .navbar-brand{
     padding: 0;
     margin: 0;
@@ -72,24 +75,27 @@ body,html{
 } */
 
 /*Wishlist*/
-#wishlist{
+
     
-}
+/*cards*/
 .hover-effect > *:hover{
     opacity: 0.8;
     border: 2px solid black !important;
     
 }
-/*for MOD*/
-.icon-del{
-    border-radius: 10px;
-}
-.warning-two{
-    text-align: center;
-}
+
 /* for registration*/
 .registration{
     border: 3px;
     position: relative;
     align-content: center;
 }
+
+/* .micart{
+    align-items: flex-end;
+    grid-auto-rows: min-content;
+}
+.rowtwo{
+    align-content: end;
+    padding-right: 10px;
+} */
