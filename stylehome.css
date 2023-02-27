@@ -1,8 +1,28 @@
-body{
-    background-color: rgb(185, 184, 184);
+body,html{
+    /* height: 100%; */
+    background-color: rgb(206, 205, 205);
     padding: 0;
     margin: 0;
-    
+}
+/* .header{
+    height: 10px;
+    width: 80%;
+} */
+/* .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+} */
+.navbar{
+    background-color: rgb(211, 206, 206);
+    color: rgb(184, 181, 181);
+    padding: 0;
+    sticky:top;
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+    position: top;
 }
 .hero-image {
     background-image: url("images/pinkwhite.jpg");
@@ -26,30 +46,9 @@ body{
 .alert{
     color: red;
     opacity: 1;
+    height: 10px;
 }
-/*facebook icon*/
-/* .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-} */
-/* .fa:hover {
-    opacity: 0.7;
-} */
-.fa-facebook {
-    background: #3B5998;
-}
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+
   /*end fb icon*/
 
   /*Flavors Cards*/
@@ -87,4 +86,10 @@ body{
 }
 .warning-two{
     text-align: center;
+}
+/* for registration*/
+.registration{
+    border: 3px;
+    position: relative;
+    align-content: center;
 }
