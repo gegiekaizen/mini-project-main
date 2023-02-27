@@ -118,3 +118,30 @@ table, th, td {
   .bg-secondary{
     background-color: rgb(128, 139, 150);;
   }
+  .main{
+    border: 3px solid gray;
+  }
+  .registration{
+    border: 3px solid gray;
+    width:400px ;
+    height: 800px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .main-user-info{
+    border: 3px solid gray;
+    border-radius: 10%;
+    width: 400px;
+    height: 600px;
+    padding: 5px 5px 5px 5px;
+    align-content: center;
+
+  }
+  .user-input-box{
+    justify-content: center;
+    width: 500px; 
+    align-content: center;
+  }
+  .legend{
+    position: absolute;
+  }

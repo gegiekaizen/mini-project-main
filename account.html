@@ -114,15 +114,57 @@
     </nav>
 
 <!------END of NAVBAR-->
-<!-- <form>
+<!-- <div class="container-fluid">
+<form class="rigestration">
    
     <fieldset>
-        <div class="container-fluid">
-            <div class="form-group">
+        <div class="register"></div>
+        <legend>REGISTER HERE</legend>
+        <h1><strong>CLOUD CHAMBER</strong></h1>
+        
+
+        <label> First Name: </label>
+        <input type="text" id="frame" required><br>
+       
+        <label> Last Name: </label>
+        <input type="text" id="frame" required><br>
+        <br>
+
+    <label>Email:</label>
+    <input type="email" id="email" required><br>
+
+    <label>Password:</label>
+    <input type="password"><br>
+
+    <label>Phone Number:</label>
+    <input type="number" id="num"><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male"name="gender"value="male">
+    <label>male:</label>
+    <input type="radio" id="female" name="gender"value="female">
+    <label>female:</label><br>
+    
+
+    <input class="btn btn-outline-secondary" type="reset" value="Reset">
+    <button type="reset" class="btn btn-outline-secondary" value="Reset">REGISTER</button>
+    
+  
+
+    </fieldset>
+</form>
+</div>
+ -->
+
+ <form>
+   
+    <fieldset>
+        <div class="container-fluid col-2">
+            <div class="form-group d-flex justify-content-center align-content-center p-3">
        <legend>REGISTER HERE</legend>
-       <h1>Cloud Chamber</h1> -->
+       <h1>Cloud Chamber</h1>
         <!-- <form action="#"> -->
-            <!-- <div class="main-user-info">
+            <div class="main-user-info  justify-content-center align-content-center p-5">
                 <div class="user-input-box">
                     <label for="FullName">Full Name</label>
                     <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name"required>
@@ -149,7 +191,7 @@
                 </div>
             </div>
                 <br>
-                <div class="container"> 
+                <div class="container-fluid"> 
                     <div class="ageconfirm text-center align-content-center">
                 <h6 class="text-center">Are you 21 or older?</h6>
                 <pro>   
@@ -166,229 +208,12 @@
         </div>
         </form>
    
-</fieldset> -->
-<div class="main">
-    <div class="container-fluid m-5 p-5 ">
-            <h4 class="text-center"> SIGN UP HERE</h4> 
-            
-    <div class="text-success">
-            <hr class="border border-dark border-2 opacity-50">
-    </div>
-            <h1 class="text-center">
-                CLOUD CHAMBER
-            </h1>
-          
-        <form class="form-inline" action="/action_page.php">
-           <!-- <fieldset>
-            <div class="form-group">
-                
-            </form>
-
-        <!---This is for Fullname-->
-
-            <div class="row g-3">
-                <div class="col-md-4">
-            <div class="container">
-                
-                <form  class="form-floating">
-                <input type="text" class="form-control" id="floatingInputGrid" placeholder="First Name" >
-                <label for="fname"class="firstname"> First Name</label>
-                </div>
-            </div>
-    
-            <div class="col-md-4">
-                <div class="form-floating">
-                    <input class="form-control" id="floatingInputGrid" placeholder="Last Name" >
-                    <label for="floatingInputGrid">Last Name</label>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="form-floating">
-                    <input class="form-control" id="floatingInputGrid" placeholder="Middle Initial">
-                    <label for="floatingInputGrid">Middle Initial</label>
-                </div>
-            </div>
-            </div>
-   
-
-        <!---This is for email----> 
-            <br>
-            <form class="form-inline" action="/action_page.ph">
-                <div class="form-group"> 
-            </form>
-
-            <div class="col-md-5">
-           <div class="form-floating ">
-            <input type="email" class="form-control" id="floatingInput" value="emailInputValue" placeholder="Enter email"required >
-            <label for="floatingInput">Email address</label>
-           </div>
-        </div>
-    </div>
-    </form>
-        <!---This is for job position--->
-         
-           
-                <form class="form-inline" >
-                <div class="form-group">
-                <div class="col-md-5 ">
-                    <form class="form-floating"><br>
-                <p> What position are you applying for?</p>
-            <select class="form-select"  aria-label="-Position-">
-                <option value="">-Select-</option>
-                <option value="#">Front-End Web Developer </option>
-                <option value="#"> Web Designer</option>
-                <option value="#">Full Stack Developer </option>
-                <option value="#"> WordPress or Shopify Developer </option>
-                <option value="#"> Web Analyst </option>
-                <option value="#"> Ux Designer/Developer</option>
-                <option value="#"> Technical Consultant </option>
-            </select>
-        </div>
-        </div>
-    </form>
-</form>
-        <br>
-      
-            <div class="row">
-                <div class="col-md-5">
-                    <form class="form-inline" >
-                    <form class="form-floating">
-                        <label >Available date</label><br>
-                        <input type="datetime-local" class="form-control"><br>
-                    </form>
-                    </form>
-                </div>
-            </div>
-        </div>
-            <!---This is Radio-->
-        <br>
- 
-            <p> 
-                What is your current employee status?
-            </p>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="employed" id="FlexRadioDefault">
-                <label class="form-check-label" for="flexrRadioDefault">Employed</label>
-                <br>
-                <input class="form-check-input" type="radio" name="unemployed" id="FlexRadioDefault">
-                <label class="form-check-label" for="flexrRadioDefault">Unemployed</label>
-                <br>
-                <input class="form-check-input" type="radio" name="self-employed" id="FlexRadioDefault">
-                <label class="form-check-label" for="flexrRadioDefault">Self-Employed</label>
-                <br>
-                <input class="form-check-input" type="radio" name="Student" id="FlexRadioDefault">
-                <label class="form-check-label" for="flexrRadioDefault">Student</label>
-            </div>
-        
-            <br>
-            <!---This is for Resume Link-->
-         
-            <form class="form-inline">
-           
-                <div class="form-group">
-            </form>
-           
-            <div class="row g-2">
-                <div class="col-md-3">
-            <div class="fname">
-                <form class="form-floating">
-                   
-                <input type="text" class="form-control" id="floatingInputValue" placeholder="https://www.example.com">
-                <label for="floatingInputValue">Please provide your resume link</label>
-                </div>
-            </div>
-       
-            <!---This is for upload resume-->
-
-            <div class="col-md-3">
-            <div class="form-floating">
-            <div class="">
-                    <label for="formFile" class="form-label" >Please upload your resume</label>
-                    <br>
-                    <input class="form-control" type="file" id="formfile">
-            </div>
-            </div>
-            </div>
-            </form>
-            </div>
-            <!---This is for references-->
-            <br>
-            <form class="form-inline">
-           
-                <div class="form-group">
-            </form>
-            <p>Do you have references?</p>
-            <div class="row g-2">
-                <div class="col-md-3">
-            <div class="fname">
-                <form class="form-floating">
-                <input type="text" class="form-control" id="floatingInputGrid" placeholder="First Name">
-                <label for="floatingInputGrid"> First Name</label>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-floating">
-                    <input class="form-control" id="floatingInputGrid" placeholder="Last Name">
-                    <label for="floatingInputGrid">Last Name</label>
-                </div>
-            </div>
-
-            <form class="form-inline">
-           
-                <div class="form-group">
-            </form>
+</fieldset>
 
 
-            <div class="col-md-3">
-                <div class="form-floating">
-                    
-                    <input class="form-control" id="floatingInputGrid" placeholder="name@example.com">
-                    <label for="floatingInputGrid">Reference email</label>
-                </div>
-            </div>
-            <br>
-            <form class="form-inline">
-           
-                <div class="form-group">
-            </form>
-           
-            <div class="row g-2">
-                <div class="col-md-3">
-            <div class="fname">
-                <form class="form-floating">
-                <input type="text" class="form-control" id="floatingInputGrid" placeholder="First Name">
-                <label for="floatingInputGrid"> First Name</label>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-floating">
-                    <input class="form-control" id="floatingInputGrid" placeholder="Last Name">
-                    <label for="floatingInputGrid">Last Name</label>
-                </div>
-            </div>
 
 
-            <form class="form-inline">
-           
-                <div class="form-group">
-            </form>
 
-
-            <div class="col-md-3">
-                <div class="form-floating">
-                    
-                    <input class="form-control" id="floatingInputGrid" placeholder="name@example.com">
-                    <label for="floatingInputGrid">Reference email</label>
-                </div>
-            </div>
-       
-<!---This is for btn----->
-<br>
-<input class="btn btn-outline-secondary" type="reset" value="Reset">
-<button type="reset" class="btn btn-outline-secondary" value="Reset">Apply</button>
-
-
-     -->
 
      <!-- Footer -->
 
