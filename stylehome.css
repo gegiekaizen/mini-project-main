@@ -14,18 +14,22 @@ body,html{
     z-index: 1020;
 } */
 .navbar{
-    background-color: rgb(211, 206, 206);
+    background-color: rgb(128, 139, 150);
     color: rgb(184, 181, 181);
     padding: 0;
     sticky:top;
 }
-.mysearch{
+.navbar-nav{
 
+}
+.icon1{
+    padding-right: 10px;
 }
 .navbar-brand{
     padding: 0;
     margin: 0;
     position: top;
+    position: sticky top;
 }
 .hero-image {
     background-image: url("images/pinkwhite.jpg");
@@ -49,7 +53,9 @@ body,html{
 .alert{
     color: red;
     opacity: 1;
-    height: 10px;
+    height: 12px;
+    margin: 0;
+    
 }
 
   /*end fb icon*/
@@ -99,3 +105,16 @@ body,html{
     align-content: end;
     padding-right: 10px;
 } */
+.table{
+    border: 2px 2px 2px 2px;
+    border-color: gray;
+    border-radius: 2px;
+}
+table, th, td {
+    border: 3px solid gray;
+    border-style: groove;
+    height: max-content;
+  }
+  .bg-secondary{
+    background-color: rgb(128, 139, 150);;
+  }
