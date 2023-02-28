@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="images/x-icon" href="images/favicon-removebg-preview.png" sizes="180x180" type="img/jpg">
     <title>Cloud Chamber</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -21,166 +19,140 @@
 </head>
 
 <body>
-    <!------ is the start of Navbar-->
     <header class="navbar navbar-expand-xxl bd-navbar sticky-top">
         <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+
         </nav>
     </header>
-                   <!--alert -->
-    <div class="alert alert-danger d-flex align-items-center" role="alert">
+    <!----------------------------alert ------------------------------------------->
+    <section class="alert alert-danger d-flex align-items-center" role="alert">
         <div>
             <b> WARNING</b>: This product contains <b>NICOTINE</b>. Nicotine is an addictive chemical.
         </div>
-    </div>
-    <!-- aend of alert-->
+    </section>
+    <!---------------------------------- end of alert------------------------------>
 
- <!--this is for navbar Favicon-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <a class="navbar-brand" href="index.html">
+    <!---------------------------this is for navbar Favicon------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+        <a class="navbar-brand" href="cloudHome.html">
             <img src="images/favicon-removebg-preview.png" alt="cloud chamber" width="100" height="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-   <!--this is end navbar Favicon-->
+        <!-----------------------this is end navbar Favicon---------------------------->
 
-        <!--Navbar start here-->
+        <!-----------------------Navbar start here------------------------------------->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"><span class="text-light">Home </span></a>
+                    <a class="nav-link" href="index.html"><span class="text-dark">Home </span></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class=" text text-light">VAPE JUICE</span>
+                        <span class=" text text-dark">VAPE JUICE</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="All.html">ALL</a>
                         <a class="dropdown-item" href="Bestseller.html">Best Seller</a>
                         <a class="dropdown-item" href="Mentholated.html">Mentholated</a>
-                        <a class="dropdown-item" href="#">Fruity</a>
-                        <a class="dropdown-item" href="#">Pastry</a>
-                        <a class="dropdown-item" href="#">Freebase Nicotine</a>
-                        <a class="dropdown-item" href="#">Saltnic Nicotine</a>
-                        <!-- <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a> -->
+                        <a class="dropdown-item" href="Fruity.html">Fruity</a>
+                        <a class="dropdown-item" href="pastryone.html" target="_blank">Pastry</a>
+                        <a class="dropdown-item" href="Freebase.html">Freebase Nicotine</a>
+                        <a class="dropdown-item" href="saltnic.html">Saltnic Nicotine</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="PODS.html"><span class="text-light">PODS </span></a>
+                    <a class="nav-link" href="PODS.html"><span class="text-dark">PODS </span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="MOD.html"><span class="text-light">MODS</span></a>
+                    <a class="nav-link" href="MOD.html"><span class="text-dark">MODS</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="text-light">ACCESORIES</span></a>
+                    <a class="nav-link" href="ACCESORIES.html"><span class="text-dark">ACCESORIES</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="text-light">WISHLIST</span></a>
+                    <a class="nav-link" href="WISHLIST.html"><span class="text-dark">WISHLIST</span></a>
                 </li>
-
-
-
             </ul>
-            <!-- <form class="form-inline d-flex gap-4 ms-auto my-2 my-lg-0">
-             -->
-            <!-- <div class="input-group"> -->
-            <div class="col-5"></div>
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light  my-2 my-sm-0" type="submit"><span
-                    class="text-light"></span>Search</span></button>
 
+            <!--------------------Search bar cart and account--------------------------->
+            <div class="col-5 p-4">
+                <div class="input-group inputsearch">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline bg-dark  my-2 my-sm-0" type="submit"><span
+                            class="text-light"><span class="text-light">Search</span></button>
+                </div>
 
-            <div class="icon">
+            <div class="icon p-3">
 
-                <a href="cloudCart.html"> <img src="images/cart-removebg-preview.png" alt="cart" width="40"
+                <a href="cart.html"> <img src="images/cart-removebg-preview.png" alt="cart" width="40" height="40"></a>
+            </div>
+            <div class="icon1 p-3">
+
+                <a href="account.html"> <img src="images/Pfp-removebg-preview.png" alt="account" width="40"
                         height="40"></a>
             </div>
-            <div class="icon1">
-
-                <a href="CloudAccount.html"> <img src="images/Pfp-removebg-preview.png" alt="account" width="40"
-                        height="40"></a>
-            </div>
-        </div>
-        <!-- </form> -->
-
-
         </div>
     </nav>
-    <!-----------END NAV---------------------------->
+    <!------------End Search bar cart and account  here------------------->
 
-    <div class="container ">
-        <div class="">
-            <div class="row d-flex  hover-effect gap-4 ">
+    <div class="container-fluid">
+        <div class="daedRDA ">
+    <h2 class="text-center py-4">Cotton Candy Flavor 0mg Vape Juice</h2>
+    <div class="images-contaioner d-flex justify-content-center align-items-center gap-3">
+        <div class="image">
+        <img src="./images/cotton-candy.png" alt="deadrabbit" width="200" height="200">
+        </div>
+        <div class="image">
+        <img src="./images/cotton-candy1.png" alt="deadrabbitinside" width="200" height="200">
+        </div>
+    </div>
+    <ul class="cotton w-25 mx-auto mt-5">
+        <li>Candy Flavor</li>
+        <li> Zero Nicotine</li>
+        <li> 60vg/40pg </li>
+        <li>60ml</li>
+        <br>
+        <li>Ingredients:(Food Grade</li>
+        <li>propylene glycol</li>
+        <li>vegetable glycerin</li>
+        <li>Flavours</li>
+        <li>Sweetener</li>
+        
+       
+    </ul> 
+     <!-------------------------------Footer------------------------------->
 
-                <div class="card col-3" style="width: 18rem;">
-                    <img class="card-img-top" src="images/nevoks.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Nevoks Feelin Mini Vape Pod Kit legit Vaping Starter Kit 750 mAh</h5>
-                        <p class="card-text">Product Name : Feelin Mini
-                            Size : 90*25*15mm
-                            Power Range : 10W-18W
-                            Capacity : 2ml</p>
-                        <div class="amount">&#8369 450.00</div>
-                        <a href="cart.html" class="btn btn-primary stretched-link">Add to cart</a>
-                    </div>
-                </div>
-    
 
-    <!-- Footer -->
-
-
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span class="text-a">Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
+     <footer class="text-center text-lg-start  text-muted">
+        
         <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
+        <section class="bg-light py-5">
+            <div class="container text-center text-md-start ">
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>Company name
+                        <h6 class="footer-chamber text-uppercase fw-bold mb-4">
+                            Cloud Chamber
                         </h6>
                         <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
+                            <a href="index.html" class="text-reset">Home</a>
                         </p>
+                        <p>
+                            <a href="Cottoncandy.html" class="text-reset">Account</a>
+                        </p>
+                        <p>
+                            <a href="Cottoncandy.html" class="text-reset">Cart</a>
+                        </p>
+                        <p>
+                            <a href="Cottoncandy.html" class="text-reset">About</a>
+                        </p>
+
                     </div>
                     <!-- Grid column -->
 
@@ -191,16 +163,19 @@
                             FLAVORS
                         </h6>
                         <p>
-                            <a href="Cottoncandy.html" class="text-reset">Mentholated</a>
+                            <a href="Mentholated.html" class="text-reset">Mentholated</a>
                         </p>
                         <p>
-                            <a href="Cottoncandy.html" class="text-reset">Fruity</a>
+                            <a href="Fruity.html" class="text-reset">Fruity</a>
                         </p>
                         <p>
-                            <a href="Cottoncandy.html" class="text-reset">Pastry</a>
+                            <a href="Pastry.html" class="text-reset">Pastry</a>
                         </p>
                         <p>
-                            <a href="Cottoncandy.html" class="text-reset">Chocolate</a>
+                            <a href="Freebase.html" class="text-reset">Freebase Nicotine</a>
+                        </p>
+                        <p>
+                            <a href="saltnic.html" class="text-reset">Saltnic Nicotine</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -241,14 +216,6 @@
                     </div>
                     <!-- Grid column -->
                 </div>
-                 <!-- Grid row -->
-                 <p>Not for Sale for Minors - Products sold on this site may contain nicotine which is a highly addictive
-                    substance.<br> WARNING: This product can expose you to chemicals including nicotine, which is known
-                    to cause birth defects or other reproductive harm.<br> Products sold on this site
-                    is intended for adult smokers. please keep out of reach of children and pets. Use All
-                    Products On This Site At Your Own Risk!</p>
-
-
             </div>
         </section>
         <!-- Section: Links  -->

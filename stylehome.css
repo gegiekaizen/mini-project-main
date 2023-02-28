@@ -1,6 +1,6 @@
 body,html{
     height: 100%;
-    background-color: rgb(206, 205, 205);
+    background-color: white;
     padding: 0;
     margin: 0;
 }
@@ -47,6 +47,10 @@ body,html{
     margin: 0;
     position: top;
     position: sticky top;
+}
+.inputsearch{
+  width: 50%;
+  
 }
 /*---------alert start-----------------*/
 .alert{
@@ -160,7 +164,9 @@ table, th, td {
   .carousel-item img{
     height: 200px;
   }
-  .figure img{
-    height: 100px;
+  .container-delivery{
+    padding: 2rem 0;
+    gap: 3;
   }
+
 } 
