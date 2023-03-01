@@ -28,13 +28,13 @@ body,html{
     color: gray;
     position: center;
     font-family: sans-serif;
-
 }
 .see-more{
   color: white;
 }
+/*--------------navbar-----------*/
 .navbar{
-    background-color: rgb(128, 139, 150);
+    background-color: rgb(184, 181, 181);
     color: rgb(184, 181, 181);
     padding: 0;
     sticky:top;
@@ -52,13 +52,17 @@ body,html{
   width: 50%;
   
 }
+.input-group-inputsearch{
+  align-content: end;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
 /*---------alert start-----------------*/
 .alert{
     color: red;
     opacity: 1;
     height: 12px;
-    margin: 0;
-    
+    margin: 0;  
 }
   /*-----------Flavors Cards-------------*/
   .card{
@@ -76,8 +80,6 @@ body,html{
     opacity: 0.8;
     border: 2px solid black !important;  
 }
-
-
 /*-------------for table------------*/
 .table{
     border: 2px 2px 2px 2px;
@@ -146,10 +148,24 @@ table, th, td {
   }
   /*------------carousel-----------------*/
   .carouselone{
-    height: 100;
-    width: 100;
+    height: 80;
+    width: 80;
   }
- /* footer */
+  .bestseller{
+    /* background-color: rgb(247, 236, 236); */
+    color: rgb(217, 59, 59);
+    opacity: 0.8;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ultra', serif;
+  }
+   /*------------discription-------*/
+
+
+
+
+ /*----------footer-------*/
  footer{
   height: 50px;
   width: 100%;
