@@ -100,18 +100,19 @@ table, th, td {
   /*-------------for registration------------*/
 
   .registration{
-    border: 3px solid gray;
+    /* border: 3px solid gray;
     width:400px ;
-    height: 500px;
-    margin: 20px;
-    padding: 20px;
+    height: 500px; */
+    /* margin: 20px;
+    padding: 20px; */
+    /* text-align: center; */
   }
   .main-user-info{
     border: 3px solid gray;
     border-radius: 10%;
-    width: 400px;
-    height: 600px;
-    padding: 5px 5px 5px 5px;
+    /* width: 400px;
+    height: 600px; */
+    padding: 20px 5px 5px 5px;
     align-content: center;
 
   }
@@ -121,6 +122,9 @@ table, th, td {
     align-content: center;
     padding: 10px 0 10px;
     gap: 2px;
+  }
+  .ageconfirm{
+    text-align: center;
   }
   /*--------------Shipping and payment---------*/
   .cone{
@@ -160,11 +164,46 @@ table, th, td {
     padding-top: 20px;
     font-family: 'Ultra', serif;
   }
-   /*------------discription-------*/
+/*---------shipping cart--------*/
 
 
+  /*--------wishlist--------*/
+  .wish{
+    border: 3px solid gray;
+    width:400px ;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    top: 50%;
+    bottom: 50%;
+    
+  }
+  .wishes{
+  font-family: 'Ultra', serif;
+  color: gray;
+  text-align: center;
+  padding-bottom: 5px;
+  }
+  
+  /*------------cart-------*/
+  .cartempty{
+    
+    border: 3px solid gray;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
 
-
+   
+  }
+    .Header{
+     
+    }
+    .Cart-Items{
+    }
+    .image-box{
+      align-content: flex-end;   
+}
  /*----------footer-------*/
  footer{
   height: 50px;
