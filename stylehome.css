@@ -165,7 +165,9 @@ table, th, td {
     font-family: 'Ultra', serif;
   }
 /*---------shipping cart--------*/
-
+.card-top{
+  align-content: flex-start;
+}
 
   /*--------wishlist--------*/
   .wish{
@@ -174,8 +176,7 @@ table, th, td {
     height: 500px;
     margin: 20px;
     padding: 20px;
-    top: 50%;
-    bottom: 50%;
+    margin: 0 auto;
     
   }
   .wishes{
