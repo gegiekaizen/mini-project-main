@@ -36,11 +36,15 @@ body,html{
   color: white;
 }
 /*--------------navbar-----------*/
+.my-navbar{
+  position: sticky !important;
+}
 .navbar{
     background-color: rgb(184, 181, 181);
     color: rgb(184, 181, 181);
     padding: 0;
     sticky:top;
+    position: sticky;
 }
 .icon1{
     padding-right: 10px;
