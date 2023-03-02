@@ -1,8 +1,8 @@
 *{
- /* outline: 1px solid lightblue ;  */
+ outline: 1px solid lightblue ; 
 }
 body,html{
-    height: 100%;
+    min-height: 100vh;
     background-color: white;
     padding: 0;
     margin: 0;
