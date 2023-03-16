@@ -1,6 +1,6 @@
-*{
+/*{
  outline: 1px solid lightblue ; 
-}
+}*/
 body,html{
     min-height: 100vh;
     background-color: white;
